@@ -294,7 +294,7 @@
           },
           "editorMode": "code",
           "exemplar": true,
-          "expr": "mtxrHlProcessorTemperature{instance='$instance'}/10 or mtxrHlTemperature{instance='$instance'}/10",
+          "expr": "avg(mtxrHlProcessorTemperature{instance='$instance'}/10 or mtxrHlTemperature{instance='$instance'}/10)",
           "instant": true,
           "interval": "",
           "legendFormat": "",
