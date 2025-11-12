@@ -27,7 +27,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 3,
+  "id": 1,
   "links": [],
   "panels": [
     {
@@ -46,7 +46,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -103,7 +103,7 @@
         "sizing": "auto",
         "text": {}
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -125,7 +125,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -157,6 +157,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -201,7 +202,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -223,7 +224,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -284,7 +285,7 @@
         "sizing": "auto",
         "text": {}
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -293,7 +294,7 @@
           },
           "editorMode": "code",
           "exemplar": true,
-          "expr": "mtxrHlProcessorTemperature{instance='10.10.10.1'}/10 or mtxrHlTemperature{instance='10.10.10.1'}/10",
+          "expr": "mtxrHlProcessorTemperature{instance='$instance'}/10 or mtxrHlTemperature{instance='$instance'}/10",
           "instant": true,
           "interval": "",
           "legendFormat": "",
@@ -306,7 +307,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -338,6 +339,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -382,7 +384,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -404,7 +406,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "fieldConfig": {
         "defaults": {
@@ -480,7 +482,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -503,7 +505,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -549,7 +551,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -572,7 +574,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -620,7 +622,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -642,7 +644,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "",
       "fieldConfig": {
@@ -688,7 +690,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -712,7 +714,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "fieldConfig": {
         "defaults": {
@@ -757,7 +759,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -781,7 +783,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "Status device",
       "fieldConfig": {
@@ -869,7 +871,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -891,7 +893,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "The number of errors detected on this device",
       "fieldConfig": {
@@ -941,7 +943,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -964,7 +966,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "Showing values > 0",
       "fieldConfig": {
@@ -1001,6 +1003,7 @@
               "type": "linear"
             },
             "showPoints": "never",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -1069,7 +1072,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -1109,7 +1112,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
+        "uid": "ef3v4g5kljwg0c"
       },
       "description": "Status link/states: The current operational state of the interface",
       "fieldConfig": {
@@ -1123,6 +1126,9 @@
               "type": "color-text"
             },
             "filterable": false,
+            "footer": {
+              "reducers": []
+            },
             "inspect": false
           },
           "mappings": [],
@@ -1450,14 +1456,6 @@
       "id": 1275,
       "options": {
         "cellHeight": "sm",
-        "footer": {
-          "countRows": false,
-          "fields": "",
-          "reducer": [
-            "sum"
-          ],
-          "show": false
-        },
         "frameIndex": 0,
         "showHeader": true,
         "sortBy": [
@@ -1467,7 +1465,7 @@
           }
         ]
       },
-      "pluginVersion": "12.1.1",
+      "pluginVersion": "12.2.1",
       "targets": [
         {
           "datasource": {
@@ -1708,7 +1706,7 @@
       "type": "table"
     },
     {
-      "collapsed": false,
+      "collapsed": true,
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1716,347 +1714,349 @@
         "y": 27
       },
       "id": 1285,
-      "panels": [],
-      "title": "Interfaces Traffic",
-      "type": "row"
-    },
-    {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "bew4orpy97mrkc"
-      },
-      "description": "",
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
+      "panels": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "ef3v4g5kljwg0c"
           },
-          "custom": {
-            "axisBorderShow": false,
-            "axisCenteredZero": false,
-            "axisColorMode": "text",
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "barWidthFactor": 0.6,
-            "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
+          "description": "",
+          "fieldConfig": {
+            "defaults": {
+              "color": {
+                "mode": "palette-classic"
+              },
+              "custom": {
+                "axisBorderShow": false,
+                "axisCenteredZero": false,
+                "axisColorMode": "text",
+                "axisLabel": "",
+                "axisPlacement": "auto",
+                "barAlignment": 0,
+                "barWidthFactor": 0.6,
+                "drawStyle": "line",
+                "fillOpacity": 10,
+                "gradientMode": "none",
+                "hideFrom": {
+                  "legend": false,
+                  "tooltip": false,
+                  "viz": false
+                },
+                "insertNulls": false,
+                "lineInterpolation": "smooth",
+                "lineStyle": {
+                  "fill": "solid"
+                },
+                "lineWidth": 1,
+                "pointSize": 5,
+                "scaleDistribution": {
+                  "type": "linear"
+                },
+                "showPoints": "never",
+                "showValues": false,
+                "spanNulls": false,
+                "stacking": {
+                  "group": "A",
+                  "mode": "none"
+                },
+                "thresholdsStyle": {
+                  "mode": "off"
+                }
+              },
+              "mappings": [],
+              "thresholds": {
+                "mode": "absolute",
+                "steps": [
+                  {
+                    "color": "green",
+                    "value": 0
+                  },
+                  {
+                    "color": "red",
+                    "value": 80
+                  }
+                ]
+              },
+              "unit": "bps"
             },
-            "insertNulls": false,
-            "lineInterpolation": "smooth",
-            "lineStyle": {
-              "fill": "solid"
+            "overrides": [
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In - wlan1"
+                },
+                "properties": [
+                  {
+                    "id": "color",
+                    "value": {
+                      "fixedColor": "#ff2e63",
+                      "mode": "fixed"
+                    }
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Unicast - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "Out Unicast - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "Out Discard - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Discard - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Unicast -"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Unicast -  ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Errors - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "Out Errors - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Unknown Protos - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "Out queue length - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "In Multicast - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              },
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "Out Multicast - ether1"
+                },
+                "properties": [
+                  {
+                    "id": "unit",
+                    "value": "pps"
+                  },
+                  {
+                    "id": "custom.axisPlacement",
+                    "value": "hidden"
+                  }
+                ]
+              }
+            ]
+          },
+          "gridPos": {
+            "h": 7,
+            "w": 24,
+            "x": 0,
+            "y": 28
+          },
+          "id": 1286,
+          "maxPerRow": 2,
+          "options": {
+            "legend": {
+              "calcs": [
+                "max",
+                "mean",
+                "min",
+                "last"
+              ],
+              "displayMode": "table",
+              "placement": "bottom",
+              "showLegend": true
             },
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "never",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
+            "tooltip": {
+              "hideZeros": false,
+              "mode": "single",
+              "sort": "none"
             }
           },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": 0
+          "pluginVersion": "12.2.1",
+          "repeat": "Interface",
+          "repeatDirection": "h",
+          "targets": [
+            {
+              "datasource": {
+                "type": "prometheus",
+                "uid": "bew4orpy97mrkc"
               },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "bps"
-        },
-        "overrides": [
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In - wlan1"
+              "editorMode": "code",
+              "exemplar": true,
+              "expr": "irate(ifHCInOctets{ifName=~'$Interface',instance='$instance'}[5m])*8",
+              "format": "time_series",
+              "hide": false,
+              "interval": "",
+              "intervalFactor": 1,
+              "legendFormat": "In",
+              "range": true,
+              "refId": "A"
             },
-            "properties": [
-              {
-                "id": "color",
-                "value": {
-                  "fixedColor": "#ff2e63",
-                  "mode": "fixed"
-                }
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Unicast - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
+            {
+              "datasource": {
+                "type": "prometheus",
+                "uid": "bew4orpy97mrkc"
               },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "Out Unicast - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "Out Discard - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Discard - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Unicast -"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Unicast -  ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Errors - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "Out Errors - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Unknown Protos - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "Out queue length - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "In Multicast - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          },
-          {
-            "matcher": {
-              "id": "byName",
-              "options": "Out Multicast - ether1"
-            },
-            "properties": [
-              {
-                "id": "unit",
-                "value": "pps"
-              },
-              {
-                "id": "custom.axisPlacement",
-                "value": "hidden"
-              }
-            ]
-          }
-        ]
-      },
-      "gridPos": {
-        "h": 7,
-        "w": 24,
-        "x": 0,
-        "y": 28
-      },
-      "id": 1286,
-      "maxPerRow": 2,
-      "options": {
-        "legend": {
-          "calcs": [
-            "max",
-            "mean",
-            "min",
-            "last"
+              "editorMode": "code",
+              "exemplar": true,
+              "expr": "irate(ifHCOutOctets{ifName=~'$Interface',instance='$instance'}[5m])*8",
+              "hide": false,
+              "interval": "",
+              "intervalFactor": 1,
+              "legendFormat": "Out",
+              "range": true,
+              "refId": "B"
+            }
           ],
-          "displayMode": "table",
-          "placement": "bottom",
-          "showLegend": true
-        },
-        "tooltip": {
-          "hideZeros": false,
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "pluginVersion": "12.1.1",
-      "repeat": "Interface",
-      "repeatDirection": "h",
-      "targets": [
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "bew4orpy97mrkc"
-          },
-          "editorMode": "code",
-          "exemplar": true,
-          "expr": "irate(ifHCInOctets{ifName=~'$Interface',instance='10.10.10.1'}[5m])*8",
-          "format": "time_series",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "In",
-          "range": true,
-          "refId": "A"
-        },
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "bew4orpy97mrkc"
-          },
-          "editorMode": "code",
-          "exemplar": true,
-          "expr": "irate(ifHCOutOctets{ifName=~'$Interface',instance='10.10.10.1'}[5m])*8",
-          "hide": false,
-          "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "Out",
-          "range": true,
-          "refId": "B"
+          "title": "Traffic \"$Interface\"",
+          "type": "timeseries"
         }
       ],
-      "title": "Traffic \"$Interface\"",
-      "type": "timeseries"
+      "title": "Interfaces Traffic",
+      "type": "row"
     },
     {
       "collapsed": true,
@@ -2064,14 +2064,14 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 35
+        "y": 28
       },
       "id": 1655,
       "panels": [
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "bew4orpy97mrkc"
+            "uid": "ef3v4g5kljwg0c"
           },
           "description": "Total SNMP time scrape took (walk and processing)",
           "fieldConfig": {
@@ -2121,7 +2121,7 @@
             "h": 8,
             "w": 8,
             "x": 0,
-            "y": 43
+            "y": 155
           },
           "id": 1656,
           "maxDataPoints": 100,
@@ -2143,7 +2143,7 @@
             "textMode": "auto",
             "wideLayout": true
           },
-          "pluginVersion": "12.1.1",
+          "pluginVersion": "12.2.1",
           "targets": [
             {
               "datasource": {
@@ -2164,7 +2164,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "bew4orpy97mrkc"
+            "uid": "ef3v4g5kljwg0c"
           },
           "description": "Time SNMP walk/bulkwalk took",
           "fieldConfig": {
@@ -2214,7 +2214,7 @@
             "h": 8,
             "w": 8,
             "x": 8,
-            "y": 43
+            "y": 155
           },
           "id": 1657,
           "maxDataPoints": 100,
@@ -2236,7 +2236,7 @@
             "textMode": "auto",
             "wideLayout": true
           },
-          "pluginVersion": "12.1.1",
+          "pluginVersion": "12.2.1",
           "targets": [
             {
               "datasource": {
@@ -2257,7 +2257,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "bew4orpy97mrkc"
+            "uid": "ef3v4g5kljwg0c"
           },
           "description": "PDUs returned from walk",
           "fieldConfig": {
@@ -2294,7 +2294,7 @@
             "h": 8,
             "w": 8,
             "x": 16,
-            "y": 43
+            "y": 155
           },
           "id": 1658,
           "maxDataPoints": 100,
@@ -2316,7 +2316,7 @@
             "textMode": "auto",
             "wideLayout": true
           },
-          "pluginVersion": "12.1.1",
+          "pluginVersion": "12.2.1",
           "targets": [
             {
               "datasource": {
@@ -2341,7 +2341,7 @@
   ],
   "preload": false,
   "refresh": "1m",
-  "schemaVersion": 41,
+  "schemaVersion": 42,
   "tags": [
     "prometheus",
     "Mikrotik",
@@ -2354,7 +2354,7 @@
       {
         "current": {
           "text": "prometheus",
-          "value": "bew4orpy97mrkc"
+          "value": "ef3v4g5kljwg0c"
         },
         "hide": 2,
         "includeAll": false,
@@ -2434,7 +2434,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "bew4orpy97mrkc"
+          "uid": "ef3v4g5kljwg0c"
         },
         "definition": "query_result(sort(mtxrInterfaceStatsIndex{ifName=~'^(ether).+',instance='$instance'}) or sort(mtxrInterfaceStatsIndex{ifName=~'^(sfp|wlan).+',instance='$instance'}) or sort(mtxrInterfaceStatsIndex{ifName=~'^bridge.+',instance='$instance'}) or  sort(mtxrInterfaceStatsIndex{ifName!~'^(ether|bridge).+',instance='$instance'}) )",
         "includeAll": true,
@@ -2572,5 +2572,5 @@
   "timezone": "browser",
   "title": "CCR1016-12S-1S+",
   "uid": "LyX-A_nnk",
-  "version": 56
+  "version": 7
 }
