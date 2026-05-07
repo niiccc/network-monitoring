@@ -1,7 +1,0 @@
-targets:
-  - address: 192.168.100.1  # IP address of the SNMP device
-    module: if_mib
-    version: 2c
-    auth:
-      community: antoniosnmp  # Replace with your community string
-
