@@ -34,3 +34,14 @@ services:
       - "9116:9116"
     volumes:
       - ./volumes/snmp-exporter-config/snmp.yml:/etc/snmp_exporter/snmp.yml
+  
+  loki:
+      image: grafana/loki:2.9.4
+      container_name: loki
+      ports:
+        - "3100:3100"
+      command: -config.file=/etc/loki/local-config.yaml
+      volumes:
+        - ./volumes/loki-data:/tmp/loki
+        - ./loki-config.yaml:/etc/loki/local-config.yaml
+      restart: unless-stopped
